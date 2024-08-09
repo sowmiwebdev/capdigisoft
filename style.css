@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+:root {
+    --box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, .1);
+}
+
+header {
+    background-image: url(./images/herosection\ image.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.solutionDrop {
+    width: 1350px !important;
+    margin-left: -420px !important;
+    padding: 0 12px !important;
+    border-radius: 10px;
+    /* font-size: 5px; */
+}
+
+/* Nav Container Start */
+.navContainer {
+    padding: 0px 75px;
+}
+
+a {
+    font-size: 19px;
+}
+
+.btn {
+    padding: 13px 25px;
+    border-radius: 10px;
+}
+
+.navbar button {
+    margin-left: 10px;
+    background-color: white;
+}
+
+.nButton {
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    padding: 2px 8px;
+}
+
+.coreservices {
+    background-color: rgba(231, 230, 230, 0.989);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.core {
+    border-bottom: 1px solid rgb(193, 189, 189);
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.coreservices h6 {
+    padding-bottom: 5px;
+    color: rgb(76, 75, 75) !important;
+}
+
+.solutions {
+    border-bottom: 1px solid rgb(193, 189, 189);
+}
+
+.solutionHead {
+    font-size: 14px;
+}
+
+.solut h6 {
+    color: rgb(60, 60, 60) !important;
+}
+
+i {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    color: rgb(75, 75, 118);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.aboutUsDrop {
+    width: 250px !important;
+    margin-left: 0 !important;
+
+}
+
+.insightsDrop {
+    width: 1330px !important;
+    margin-left: -830px !important;
+    padding: 0 12px !important;
+    border-radius: 10px;
+}
+
+.insightsgrey {
+    background-color: rgba(231, 230, 230, 0.989);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.insigh {
+    border-bottom: 1px solid rgb(193, 189, 189);
+    margin-left: 16px;
+
+}
+
+.insights h6 {
+    padding-bottom: 5px;
+    color: rgb(76, 75, 75) !important;
+}
+
+.insights {
+    border-bottom: 1px solid rgb(193, 189, 189);
+}
+
+.insightHead {
+    font-size: 14px;
+}
+
+.insigh h6 {
+    color: rgb(60, 60, 60) !important;
+}
+
+/* Nav Container End */
+
+/* Hero Container Start */
+.carousel-inner {
+    padding: 140px;
+}
+
+.jumbotron {
+    padding-top: 50px;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+}
+
+/* Hero Container End */
+
+/* Main Start */
+/* Compliance Start */
+.compliance {
+    border: 1px solid black;
+}
+
+.compliance h2 {
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.compliance {
+    position: relative;
+    top: -85px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+/* Compliance End */
+
+/* Our Solution Start */
+.ourSolutionBody {
+    background-image: url(./images/ourSolutions.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 35px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.ourSolutionBody i {
+    background-color: transparent;
+    color: white;
+}
+
+.ourSolutionBody p {
+    width: 40%;
+    font-size: 17px;
+}
+
+.ourSolutionBody span {
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.ourSolutions h1 {
+    font-weight: 400;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+/* Our Solution End */
+
+
+/* Card Body Start*/
+legend {
+    font-size: 17px;
+    color: #BFBFBF;
+}
+
+fieldset {
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+fieldset h4 {
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+p1 {
+    color: #0c5b79;
+}
+
+p1 i {
+    background-color: white;
+    font-size: 14px;
+}
+
+p1 span {
+    border-bottom: 1px solid black;
+    padding-top: 3px;
+}
+
+/* Card Body End */
+
+/* Global Reach Start */
+.ceoHeading {
+    margin-top: 425px;
+    margin-left: 50px;
+}
+
+.ceoHeading p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.globalReachContainer {
+    background-color: #f5f5f5;
+
+}
+
+.globalReachContent {
+    margin-top: 100px;
+
+}
+
+.globalReachContent h1 {
+    font-weight: 300;
+}
+
+.globalReach {
+    margin-top: 80px;
+}
+
+.globalReach h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.globalReach p {
+    font-size: 17px;
+}
+
+.ceoContent {
+    display: flex;
+}
+
+/* Global Reach End */
+
+/* OurTeam Start */
+
+
+.carousel-control-prev-icon {
+    background-color:#0c5879;
+    border-radius: 20px;
+
+}
+
+.carousel-control-next-icon {
+    background-color:#0c5879;
+    border-radius: 20px;
+
+}
+
+.ourTeamCarousel legend img {
+    border-radius: 60px;
+}
+
+.ourTeamCarousel i {
+    background-color: transparent;
+    padding: 0px;
+    color: rgb(237, 175, 32);
+    font-size: 17px;
+}
+
+.ourTeamCarousel{
+    width: 300px;
+}
+
+.ourTeam h2{
+    font-size: 40px;
+    padding: 5px 180px;
+}
+
+/* Our Team End */
+
+/* Blog Container Start */
+.blogContainer{
+    background-color: #f5f5f5;
+}
+.blogsCard img{
+    width: 640px;
+}
+.blogsCard p{
+    font-size: 15px;
+}
+.posts{
+    border-top: 2px solid #dbe4ed;
+}
+.posts1{
+    border-top: 2px solid rgba(240, 162, 18, 0.954);
+}
+.posts h6{
+    font-size: 16px;
+}
+.posts p{
+    color: #516f90;
+    font-size: 12px;
+}
+.blogs{
+    padding-bottom: 60px;
+}
+/* Blog Container End */
+
+/* Clients Start */
+
+.clients img{
+    height: 90px;
+    width: 200px;
+    padding: 20px ;
+    aspect-ratio: 16/9;
+    text-align: center;
+}
+.clients span{
+    color: #0c5b79;
+    font-weight: 500;
+}
+
+.arfidante img{
+    height: 70px;
+    width: 200px;
+    margin-top: 15px;
+
+}
+.linkMotive img{
+    height: 55px;
+    width: 200px;
+    margin-top: 25px;
+}
+.ledgers img{
+    height: 80px;
+    width: 200px;
+    margin-top: 10px;
+
+}
+.meeting img{
+    margin-top: 15px;
+
+}
+.shadowLift img{
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+
+}
+.smart img{
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+
+}
+.sun img{
+    height: 120px;
+    width: 200px;
+    
+}
+.hire img{
+    height: 65px;
+    width: 200px;
+    margin-top: 30px;
+}
+.clientLogo{
+    border: .3px solid rgb(230, 227, 227);
+}
+.clientStart{
+    border-left: none;
+}
+.clientTop{
+    border-top: none;
+}
+.clientEnd{
+    border-right: none;
+}
+.clientBottom{
+    border-bottom: none;
+}
+
+/* Clients End */
+
+/* Tecnology Start */
+    .technology{
+        background-color: #f5f5f5;
+        padding: 70px 50px 50px 70px !important;
+    }
+    .technology img{
+        width: 365px;
+        border-radius: 20px;
+        margin-top: -120px;
+    }
+    .technology h2{
+        font-size: 24px;
+    }
+    .technology button{
+        background-color: #0c5b79;
+        color: white;
+        padding: 13px 25px !important;
+        border-radius:8px;
+        font-size: 15px;
+    }
+    .technologyContainer{
+        margin-top: 130px !important;
+    }
+/* Tecnology End */
+
+/* Footer Container Start */
+    .footerContainer{
+        background-color: #0c3b48;
+        color: white;
+    }
+    .footer i{
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+    }
+    .footerContact{
+        border-bottom: 1px solid hsl(0, 1%, 45%);
+    }
+    .companyDetails{
+        padding-right: 20px;
+    }
+    .company{
+        padding-bottom: 30px;
+
+    }
+    .companyDetails h5{
+        padding-bottom: 10px;
+        font-size: 26px;
+    }
+    .copywrite i{
+        font-size: 20px;
+        background-color: transparent;
+    }
+    .socialIcons i{
+        font-size: 20px;
+        background-color: transparent;
+    }
+/* Footer Container End */
+
+/* Main End*/

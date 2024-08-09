@@ -1,0 +1,100 @@
+@media(width <=576px){
+    .solutionDrop{
+        width: 500px !important;
+        margin-left:-50px !important;
+    }
+    .jumbotron h1{
+        font-size: 27px;
+    }
+    .carousel-inner {
+        padding: 20px;
+    }
+    .navContainer {
+        padding: 0px 5px;
+    }
+    .resSolution{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .resSolution{
+        flex-direction: column;
+    }
+    .ourSolutionBody p{
+        width: 370px;
+    }
+
+    .globalReachContent h1{
+        font-size: 24.8px !important;
+    }
+    .globalReachContent {
+        margin-top: 50px;
+    }
+    .globalReach {
+        margin-top: 20px;
+    }
+    .complianceHeading h2{
+        font-size:15px ;
+    }
+    .globalReachContent h1{
+        font-size: 25px !important;
+    }
+    .ceoContent{
+        flex-direction: column;
+    }
+    .ceoHeading {
+        margin-top:0px;
+        text-align: center;
+        margin-right: 60px;
+    }
+    .ceoContent img{
+        margin-left: 50px;
+    }
+    .ceoHeading h6{
+        font-weight: 400;
+        font-size: 20px !important;
+    }
+    .ourTeam h2{
+        font-size: 25px;
+        padding: 5px 10px;
+    }
+    .ourTeamCarousel{
+        margin-right: 20px;
+    }
+
+    /* clients start */
+    .clients h1{
+        font-size: 25px;
+    }
+    /* clients End */
+    /* .grid-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+    .clientLogo{
+        width: 50%;
+
+    }
+    .technology{
+        padding: 70px 50px 50px 20px !important;
+    }
+}
+
+
+@media (width >=577px) and (width <=768px) {
+    .complianceHeading h2{
+        font-size:30px !important;
+    }
+    .globalReachContent h1{
+        font-size: 32px !important;
+    }
+    .ourTeam h2{
+        font-size: 24px;
+        padding: 5px 10px;
+    }
+    .clientLogo{
+        border: .3px solid rgb(230, 227, 227);
+    }
+    
+}
+
